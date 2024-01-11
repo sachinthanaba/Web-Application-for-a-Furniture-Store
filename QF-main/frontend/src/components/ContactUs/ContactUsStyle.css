@@ -1,0 +1,80 @@
+
+.ContactUsMainContainer {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #FFF8F4;
+
+  }
+  
+  .CUimage {
+    background: url('./contactUsImages/contactUsMainImg.jpg');
+    height: 100vh;
+    width: 100%;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center center; 
+  }
+
+  .CUmainText img{
+    width: 55%;
+    margin: 8% 0 0 4%;
+  }
+  .contactUsStats{
+    margin: 2% 0 0 4%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    gap: 50px;
+  }
+
+  /* find us on section */
+  .CUFindUsOn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 4% 0 0 4%;
+    background-color: #FFF8F4;
+
+    
+  }
+
+  .CUFindUsOnTitle{
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 39px;
+    color: #524439;
+   
+    
+  }
+  .CUImages img{
+    width: 718px;
+
+  }
+
+  .CUSocialMediaCOntainer{
+    display: flex;
+    flex-direction: row;
+    column-gap: 20px;
+    margin-bottom: 20px;
+  }
+  .CUSocialMediaCOntainer p{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 33px;
+    color: #524439;
+  }
+  .CUSocialMediaCOntainer img{
+    width: 64px;
+  }
+  .CUContactUS{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 2% 4% 10% 0%;
+
+  }
+  .footerContact{
+    margin-top: 90px;
+  }
